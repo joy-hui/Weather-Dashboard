@@ -27,7 +27,7 @@ function getWeather(city) {
     );
     currentPicture.setAttribute("alt", response.weather[0].description);
     var celsius = response.main.temp - 273.15;
-    $("#temperature").text("Temperature: " + celsius.toFixed(1) + " °C");
+    $("#temperature").text("Temp: " + celsius.toFixed(1) + " °C");
     $("#wind-speed").text("Wind Speed: " + response.wind.speed + " MPH");
     $("#humidity").text("Humidity: " + response.main.humidity + "%");
   });
