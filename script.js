@@ -117,5 +117,4 @@ function unique(arr) {
   }
   return arr;
 }
-//console.log(searchHistory);
 renderhistoryButtons();
